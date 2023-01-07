@@ -1,21 +1,28 @@
-for n in range(1,10):
-    print(n)
-#############################################
-n = 1 
-while (n < 10):
-    print(n)
-    n=n+1
-#############################################
-valor=-5
-if (valor <0): 
-    print('El número es negativo')
-elif (valor >0):
-    print('El número es positivo')
+numero= int(input('Introduzca un número: '))
+
+if numero==100:
+    print('Usted escribió 100')
+elif numero > 100:
+    print('Usted escribió un número mayor a 100')
 else:
-    print('El número es igual a cero')
-################################################
-edad = (3,1,0.2,8,7)
-print(len(edad))
-#################################################
+    print('Usted escribió un número menor a 100')
+
+######################################################################
+cantLitTengo=float(input('Digite: '))
+
+cantMilobtengo=cantLitTengo*1000/1
+cant2Recip=cantMilobtengo/2
+
+print(cantLitTengo)
+print(cant2Recip)
+####################################################################
+notas=int(input('Digite: '))
+
+if notas >= 3:
+    print('Aprobo')
+else:
+    print('Reprobo')
+
+
 
 
