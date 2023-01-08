@@ -9,4 +9,13 @@ else:
     print('\nEl número', numero, 'Es impar')
 print('------------------')
 
+i =0
+while i < 5:
+    print(i)
+    i=i+1
+print('-------------------------')
+
+data = [0,1,2,3,4]
+for i in data:
+    print(i)
 
