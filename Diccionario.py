@@ -64,7 +64,9 @@ valores = list(diccionario.values())
 llaves = tuple(diccionario.keys())
 valores = tuple(diccionario.values())
 
+diccionario_2 = {'g': 10, 25:'bry'}
 
+diccionario_2.update(diccionario) #.upadate incrementa el diccionario 
 
 
 
